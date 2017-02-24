@@ -1,0 +1,88 @@
+#top{
+	background: white url(http://cdn1-www.playstationlifestyle.net/assets/uploads/2015/08/MGS-PSLS-555x250.jpg)
+	no-repeat center;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+#top h1{
+	color: #ff0;
+}
+
+#top p{
+	color: red;
+	font-weight: bold;
+}
+
+.navbar{
+	border: 1px blue dashed;
+	background-color: red;
+	margin: 10px;
+
+}
+
+.navbar li{
+	display: inline-block;
+	padding: : 5px;
+	margin: 10px;
+	border: 1px black solid; 
+}
+
+/*Content property*/
+p:before {
+    content: url(images/jam.jpg);
+}
+
+/*Pseudo classes*/
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: purple;
+}
+
+/*Dinamic pseudo classes*/
+a:hover{
+	color: red;
+}
+
+a:active{
+	font-size: 1.5em;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+p:first-child{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/*Pseudo elements*/
+/*p::first-letter{
+	font-weight: bold;
+}*/
+
+/*Shorthand properties exemples*/
+p{
+	font: 14px/1.5 "Times New Roman, times, serif";
+	padding: 30px 10px;
+	border: 1px black solid;
+	border-width: 1px 5px 5px 1px;
+	border-color: red green blue yellow;
+	margin: 10px 50px;
+}
+
+/*class exemple */
+/*.intro{
+	color: red;
+	font-weight: bold;
+}*/
+
+/*Nesting exemple*/
+/*h1, .oneclass, .otherclass{
+	color: red;
+}*/
+
